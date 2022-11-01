@@ -1,0 +1,75 @@
+/* .navigation__category {
+  margin: 0 150px;
+  text-align: center;
+}
+.navigation__category li {
+  display: inline-block;
+  position: relative;
+  margin: 0 19px;
+  padding: 38px 0;
+}
+.navigation__category li a {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 20px;
+}
+.navigation__category li a:hover {
+  text-decoration: none;
+}
+.navigation__category li a:after {
+  content: "";
+  position: relative;
+  display: block;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transition: -webkit-transform 0.3s
+    cubic-bezier(0.45, 0.46, 0.05, 0.96);
+  -o-transition: transform 0.3s cubic-bezier(0.45, 0.46, 0.05, 0.96);
+  transition: transform 0.3s cubic-bezier(0.45, 0.46, 0.05, 0.96);
+  transition: transform 0.3s cubic-bezier(0.45, 0.46, 0.05, 0.96),
+    -webkit-transform 0.3s cubic-bezier(0.45, 0.46, 0.05, 0.96);
+}
+.navigation__category li a:hover:after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transition: -webkit-transform 0.5s
+    cubic-bezier(0.45, 0.46, 0.05, 0.96);
+  -o-transition: transform 0.5s cubic-bezier(0.45, 0.46, 0.05, 0.96);
+  transition: transform 0.5s cubic-bezier(0.45, 0.46, 0.05, 0.96);
+  transition: transform 0.5s cubic-bezier(0.45, 0.46, 0.05, 0.96),
+    -webkit-transform 0.5s cubic-bezier(0.45, 0.46, 0.05, 0.96);
+}
+
+.navigation__category li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 94px;
+  left: -50%;
+  padding: 15px 31px;
+  background: #fff;
+  border: solid 1px #e5e5e5;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.navigation__category li ul li {
+  display: block;
+  padding: 10px 0;
+  margin: 0;
+}
+.navigation__category > ul > li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+} */

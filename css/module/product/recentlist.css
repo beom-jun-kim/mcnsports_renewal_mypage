@@ -1,0 +1,19 @@
+.xans-product-listitem { border-top:1px solid #000; }
+.xans-product-listitem .ec-base-prdInfo .description .prdName b {font-weight: 400;}
+.xans-product-listitem strong {font-weight: 400;}
+.xans-product-listitem strong.txtEm {font-weight: var(--bold-font);}
+
+
+
+.xans-myshop-main {
+    position: static !important;
+    margin: 70px 0 50px;
+    width: 260px !important;
+}
+.myshopArea {
+    display: flex;
+    padding: 0 !important;
+}
+.myshopAreaWrap {
+    width: 100%;
+}

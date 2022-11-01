@@ -1,0 +1,11 @@
+.xans-myshop-asyncbankbook { border:1px solid var(--line-color); }
+.xans-myshop-asyncbankbook ul { display:flex; flex-wrap:wrap; justify-content:space-around; }
+.xans-myshop-asyncbankbook li { position:relative; text-align:center; flex:1; padding:50px 0; border-right:1px solid var(--line-color); /* vertical-align:top; box-sizing:border-box; */ }
+.xans-myshop-asyncbankbook li:last-child { border-right:0; }
+.xans-myshop-asyncbankbook li:not(:last-child):after { top:50%; height:48px; margin-top:-24px; }
+.xans-myshop-asyncbankbook a:hover { text-decoration:none; }
+.xans-myshop-asyncbankbook .xans-myshop-asyncbenefit .user { display:none; }
+.xans-myshop-asyncbankbook .data {  font-size:25px; line-height:30px; font-weight:bold; margin-left:50px; }
+.xans-myshop-asyncbankbook .data span {vertical-align: sub;}
+.xans-myshop-asyncbankbook .thumb { display:inline-block; width:65px; height:65px; padding:22px 0 0; background:#aaa; text-align:venter; font-size:14px; border-radius:50%; color:#fff; box-sizing:border-box; }
+.xans-myshop-asyncbankbook .title { display:block; margin:2px 0 0; font-size:var(--small-font);}

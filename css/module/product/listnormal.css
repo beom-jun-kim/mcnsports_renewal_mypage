@@ -1,0 +1,58 @@
+.xans-product-normalpackage {
+  margin-bottom: 100px;
+}
+
+.xans-product-normalmenu .function {
+  overflow: hidden;
+  text-align: right;
+  line-height: 38px;
+}
+/* .xans-product-normalmenu .function .btnCompare {
+  display: inline-block;
+  padding: 0 12px;
+  border-left: 1px solid #d7d5d5;
+}
+.xans-product-normalmenu .function .btnCompare:hover {
+  text-decoration: none;
+} */
+.xans-product-normalmenu .prdCount {
+  float: left;
+  font-size: var(--small-font);
+  line-height: normal;
+}
+.xans-product-normalmenu .prdCount strong {
+  margin-left: 8px;
+}
+.xans-product-normalmenu fieldset {
+  margin: 20px 0 0;
+  padding: 10px 16px;
+  text-align: right;
+  background: #fbf9fa;
+}
+.xans-product-normalmenu .discoutPeriod:hover {
+  transform: translate(5px 5px);
+}
+.xans-product-listnormal .discountPeriod:hover .layerDiscountPeriod {
+  display: block !important;
+}
+
+.xans-product-listnormal .prdList span b,
+.xans-product-listnormal .prdList span {
+  font-size: var(--small-font) !important;
+  color: var(--sec-font-color) !important;
+  font-weight: 400 !important;
+}
+
+.xans-product-listnormal .spec {
+  display: flex;
+  margin-top: 8px;
+}
+
+.xans-product-listnormal .spec li {
+  padding-right: 10px;
+}
+
+.xans-product-listnormal .spec li:nth-child(2) span {
+  color: #2e2e2e !important;
+  font-weight: 600 !important;
+}

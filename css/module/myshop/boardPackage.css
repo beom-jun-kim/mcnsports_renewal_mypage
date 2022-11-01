@@ -1,0 +1,25 @@
+.xans-myshop-boardlisthead { margin:0 0 20px 0; }
+.xans-myshop-boardlisthead #board_sort { width:150px; }
+
+.xans-myshop-boardlist .notice .subject { font-weight:bold; word-break:break-all; word-wrap:break-word; }
+
+.xans-myshop-boardpackage .ec-base-table table td.no { color:#6d6d6d; }
+.xans-myshop-boardpackage .ec-base-table table td.subject a { margin-right:5px; }
+.xans-myshop-boardpackage .ec-base-table table td.subject img:first-child { width: 17px; height: 15px; margin: 0px 5px 0 0; vertical-align: initial; }
+.xans-myshop-boardpackage .ec-base-table table td.subject img {width: auto; height: auto; margin-left: 5px; vertical-align: inherit;}
+.xans-myshop-boardpackage .ec-base-table table td .comment { margin:0 5px 0 0; color:#ef441f; font-weight:normal; }
+.xans-myshop-boardpackage .ec-base-table table td .comment b { font-weight:normal; }
+
+
+.xans-myshop-main {
+    position: static !important;
+    margin: 70px 0 50px;
+    width: 260px !important;
+}
+.myshopArea {
+    display: flex;
+    padding: 0 !important;
+}
+.myshopAreaWrap {
+    width: 100%;
+}

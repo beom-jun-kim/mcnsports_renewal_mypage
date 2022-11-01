@@ -1,0 +1,19 @@
+span.ec-base-help,
+p.ec-base-help,
+ul.ec-base-help li { margin:2px 0; padding:1px 0 1px 22px; font-size:12px; line-height:19px; color:#6d6d6d; background:url('//img.echosting.cafe24.com/skin/skin/common/ico_info.svg') no-repeat 0 3px; }
+
+div.ec-base-help { margin:50px 0; /* line-height:18px; */ }
+div.ec-base-help > h2,
+div.ec-base-help > h3 { display:block; margin:0 0 20px; font-size: var(--normal-font);}
+div.ec-base-help .inner { padding:30px; border:1px solid var(--line-color); /* border-top:1px solid #000; */ }
+div.ec-base-help h4 { margin:22px 0 -4px; color:#000000; font-size:12px; font-weight:normal; }
+div.ec-base-help h4:first-child { margin-top:0; }
+/* div.ec-base-help p,
+div.ec-base-help ul,
+div.ec-base-help ol { margin:15px 0 0 0; } */
+div.ec-base-help p,
+div.ec-base-help li { color:var(--sec-font-color); font-size:14px; line-height:30px; }
+div.ec-base-help p,
+div.ec-base-help ul li { padding:0 0 0 12px; }
+div.ec-base-help p:before,
+div.ec-base-help ul li:before { content:""; display:inline-block; width:5px; height:5px; margin:7px 9px 0 -12px; border-radius:50%; background:var(--sec-font-color); }

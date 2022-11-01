@@ -1,0 +1,23 @@
+/********************* Mobile *********************/
+/* @media all and (max-width:767px) {
+.xans-layout-logotop {  padding:20px 16px; }
+} */
+
+/********************* Mobile / Tablet *********************/
+/* @media all and (max-width:1024px) {
+.xans-layout-logotop { position:absolute; text-align:left; z-index:22; }
+.xans-layout-logotop a { font-size:27px; line-height:1; color:#000; font-weight:bold; text-decoration:none; font-style:normal; }
+.xans-layout-logotop img { max-width:800px; max-height:21px; }
+} */
+
+/********************* Tablet *********************/
+/* @media all and (min-width:768px) and (max-width:1024px) {
+.xans-layout-logotop { padding: 28px 24px; }
+} */
+
+/********************* PC *********************/
+/* @media all and (min-width:1025px) {
+.xans-layout-logotop { position:absolute; min-width:220px; padding:38px 50px; text-align:left; z-index:24; }
+.xans-layout-logotop a { font-size:35px; color:#000; font-weight:bold; text-decoration:none; font-style:normal; }
+.xans-layout-logotop img { max-width:800px; max-height:27px; }
+} */

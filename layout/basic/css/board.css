@@ -1,0 +1,10 @@
+.boardMain .blind { display:none; }
+.boardMain .xans-board-listpackage { margin-top:50px; }
+.boardMain .xans-board-listpackage .ec-common-rwd-image { margin-right:6px; vertical-align: text-top; }
+.boardMain .xans-board-listpackage .ec-common-rwd-image[alt="답변"] { max-width:20px; }
+.boardMain .xans-board-listpackage .ec-common-rwd-image[alt="NEW"] { max-width:42px;  }
+.boardMain .xans-board-listpackage .ec-common-rwd-image[alt="HIT"] { max-width:34px; }
+.boardMain .xans-board-listpackage .ec-common-rwd-image[alt="파일첨부"] { max-width:8px; }
+.boardMain .xans-board-listpackage .galleryList li { padding:20px 0; border-bottom:1px solid #e5e5e5; }
+.boardMain .xans-board-listpackage .galleryList li span { display:inline-block; padding-top:38px; margin: 0 20px 0 10px;}
+.boardMain .xans-board-listpackage .galleryList img { width:100px; }

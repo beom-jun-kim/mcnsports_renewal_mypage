@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- PG크로스브라우징필수내용 -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <!-- // PG크로스브라우징필수내용 -->
+
+    <title>기본 레이아웃</title>
+    <link rel="preload" href="/fonts/Noto-Sans-CJK-KR-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/Noto-Sans-CJK-KR-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/Segoe-UI-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/Segoe-UI-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+    <!--@css(/layout/basic/css/common.css)--><!-- 해당 CSS는 쇼핑몰 전체 페이지에 영향을 줍니다. 삭제와 수정에 주의해주세요. -->
+    <!--@css(/layout/basic/css/layout.css)-->
+    <!--@css(/layout/basic/css/fonts.css)-->
+    <!--@css(/layout/basic/css/ec-base-ui.css)-->
+    <!--@css(/layout/basic/css/ec-base-button.css)-->
+    <!--@css(/layout/basic/css/ec-base-tab.css)-->
+    <!--@css(/layout/basic/css/ec-base-table.css)-->
+    <!--@css(/layout/basic/css/ec-base-tooltip.css)-->
+    <!--@css(/layout/basic/css/ec-base-help.css)-->
+    <!--@css(/layout/basic/css/ec-base-fold.css)-->
+    <!--@css(/layout/basic/css/ec-base-box.css)-->
+    <!--@css(/layout/basic/css/ec-base-desc.css)-->
+    <!--@css(/layout/basic/css/ec-base-product.css)-->
+    <!--@css(/layout/basic/css/ec-base-prdInfo.css)-->
+    <!--@css(/layout/basic/css/ec-base-paginate.css)-->
+
+    <!--@js(/layout/basic/js/basic.js)-->
+    <!--@js(/layout/basic/js/layout.js)-->
+    <!--@js(/js/common.js)-->
+</head>
+<body>
+<div id="skipNavigation">
+    <p><a href="#category">전체상품목록 바로가기</a></p>
+    <p><a href="#contents">본문 바로가기</a></p>
+</div>
+
+<div id="wrap">
+    <!--(/layout/basic/topbanner.html)-->
+    <header>
+        <div class="inner">
+            <div class="logo">
+                <a href="/index.html" class="logoWhiteMode"><img src="/web/img/22_mcn_renewal_img/main/logo_mcnsports_white.png" alt="엠씨엔로고화이트"/></a>
+                <a href="/index.html" class="logoDarkMode"><img src="/web/img/22_mcn_renewal_img/main/logo_mcnsports_black.png" alt="엠씨엔로고블랙"/></a>
+            </div>
+
+            <!--@import(/layout/basic/navigation.html)-->
+            <!--@import(/layout/basic/state_login.html)-->
+        </div>
+    </header>
+    <!--@import(/layout/basic/sidebar.html)-->
+    <div id="container">
+        <main id="contents" role="main">
+            <div class="inner">
+                <!--@contents-->
+            </div>
+        </main><hr class="layout" />
+    </div><hr class="layout" />
+
+    <!--@import(/layout/basic/quick.html)-->
+
+    <!--@import(/layout/basic/footer.html)-->
+</body>
+</html>

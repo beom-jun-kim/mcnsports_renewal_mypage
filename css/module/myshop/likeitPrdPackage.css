@@ -1,0 +1,6 @@
+.xans-myshop-likeproductlist .list table td.thumb img { width:75px; height:auto; }
+
+@media all and (min-width:1025px) {
+    .xans-myshop-likeitprdpackage { position: relative; min-height: 750px; margin: 39px 0 0; padding: 0 0 0 210px; }
+    .xans-myshop-likeitprdpackage .titleArea { margin: 50px 0 100px; text-align: center; padding-right: 22%; }
+}

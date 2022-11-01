@@ -1,0 +1,9 @@
+@media all and (max-width:767px) {
+#userStyle #giftLayer { width:360px; left:0; }
+#userStyle #giftLayer #giftIframe { width:360px !important; } 
+
+#userStyle #giftLayer #giftIframe .ec-base-table table tr th { width:200px !important; }
+#userStyle #giftLayer #giftIframe .ec-base-table table tr td ul{ width:50px !important; } 
+    
+}
+

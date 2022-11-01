@@ -1,0 +1,42 @@
+<div class="my_page">
+  <div class="navigation__util">
+    <div module="Layout_SearchHeader">
+    <!--@css(/css/module/layout/searchHeader.css)-->
+    <!--
+            $product_page=/product/detail.html
+            $category_page=/product/list.html
+        -->
+    <fieldset>
+        <legend>검색</legend>
+        {$form.keyword}<button
+        type="button"
+        class="btnSearch"
+        onclick="{$action_search_submit}"
+        ></button>
+        <ul class="autoDrop" id="{$search_auto_id}"></ul>
+    </fieldset>
+    </div>
+    <a href="/myshop/index.html" class="menu RW displaynone">
+    <!--@import(/svg/icon-user.html)-->
+    마이쇼핑
+    </a>
+    <a href="/myshop/wish_list.html" class="menu RW displaynone">
+    <!--@import(/svg/icon-heart.html)-->
+    관심상품
+    </a>
+  </div>
+
+  <div class="topArea__statelogon">
+    <div module="Layout_stateLogon" class="userBox">
+      <a href="/myshop/index.html"><i class="xi-user-o"></i></a>
+      <a href="/order/basket.html"><i class="xi-basket"></i></a>
+      <a href='{$action_logout}'><i class="xi-log-out"></i></a>
+    </div>
+
+    <div module="Layout_statelogoff" class="userBox">
+      <a href="/myshop/index.html"><i class="xi-user-plus"></i></a>
+      <a href='/member/login.html'><i class="xi-basket"></i><span class="count {$basket_count_display|display}"><span>{$basket_count}</span></span></a>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,126 @@
+.xans-product-menupackage:first-child {
+  margin-top: 130px;
+}
+
+.xans-product-menupackage .menuCategory {
+  margin: 20px 0 40px;
+}
+
+.xans-product-menupackage .title {
+  min-height: 30px;
+  margin: 10px 0 20px;
+}
+
+.xans-product-menupackage .title .banner {
+  margin: 0 0 20px;
+}
+
+.xans-product-menupackage .title h2 {
+  color: #4a5164;
+  font-size: 16px;
+}
+
+.xans-product-menupackage .title h2,
+.xans-product-menupackage .title .likeButton {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.xans-product-menupackage .title .likeButton button {
+  margin: 0 0 0 10px;
+  padding: 0 0 0 20px;
+  height: 16px;
+  font-family: verdana;
+  color: #9a9a9a;
+  letter-spacing: -1px;
+  background: none;
+}
+
+.xans-product-menupackage .title .likeButton.selected button {
+  color: #353535;
+}
+
+.xans-product-menupackage .menuCategory a {
+  color: var(--sec-font-color);
+  font-weight: 300;
+  font-size: var(--normal-font);
+}
+
+.xans-product-menupackage .menuCategory > li {
+  display: flex;
+}
+
+.xans-product-menupackage .menuCategory .ViewAll > a {
+  font-size: 0;
+}
+
+.xans-product-menupackage .menuCategory > .ViewAll > a:before {
+  content: "전체보기";
+  font-size: var(--normal-font);
+}
+
+.xans-product-menupackage .menuCategory > li > a {
+  margin-right: 30px;
+}
+
+.xans-product-menupackage .menuCategory > li > ul > li.selected > a,
+.xans-product-menupackage .menuCategory > li.selected > a {
+  font-weight: var(--bold-font);
+  color: #2e2e2e;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+}
+
+.xans-product-menupackage .xans-product-menupackage .menuCategory > li .count {
+  font-weight: normal;
+}
+.xans-product-menupackage .menuCategory > li > ul {
+  display: flex;
+}
+.xans-product-menupackage .menuCategory > li > ul > li {
+  margin: 0 30px 2px 0;
+}
+
+.xans-product-menupackage .menuCategory > li > ul > li > .button {
+  display: inline-block;
+  position: relative;
+  width: 9px;
+  height: 14px;
+  margin: 1px 0 0 3px;
+  vertical-align: top;
+}
+
+.xans-product-menupackage .subCategory {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 13px;
+  z-index: 11;
+  width: 300px;
+  margin: 0 0 0 -151px;
+  padding: 6px 0;
+  border: 1px solid #565960;
+  font-size: 0;
+  line-height: 0;
+  background: #fff
+    url("//img.echosting.cafe24.com/skin/base_ko_KR/product/bg_sub_category_line.gif")
+    repeat-y 150px 0;
+}
+.xans-product-menupackage .subCategory li {
+  display: inline-block;
+  width: 130px;
+  margin: 8px 0 8px 18px;
+  font-size: 12px;
+  line-height: 14px;
+  vertical-align: top;
+}
+.xans-product-menupackage .subCategory li a {
+  color: #575a63;
+}
+
+.xans-product-menupackage .menuCategory .button.selected {
+  z-index: 11;
+}
+.xans-product-menupackage .menuCategory .button.selected .subCategory {
+  display: block;
+}

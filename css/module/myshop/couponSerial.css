@@ -1,0 +1,7 @@
+.xans-myshop-couponserial .couponSerial { text-align:center; border:1px solid var(--line-color); margin:0 0 50px; padding:37px;}
+.xans-myshop-couponserial .couponSerial #coupon_code { width:342px; height: 40px;}
+.xans-myshop-couponserial .couponSerial .btnSubmitFix { margin:0 0 0 6px; }
+
+.xans-myshop-couponlist .couponList .ec-base-table,
+.xans-myshop-couponlist .couponList .ec-base-prdEmpty { border-top:0; }
+.xans-myshop-couponlist .couponList .ec-base-prdEmpty { padding-top:6px; }

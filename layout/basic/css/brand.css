@@ -1,0 +1,70 @@
+.title h2.text { position:relative; font-size:38px; font-weight:bold; line-height:1; }
+.ec-base-product .title, title { text-align:center;  }
+.ec-base-product .title p, .title p { font-size: 18px; margin:20px 0 60px; color:#666666; }
+picture { width:100%;}
+
+.brand { height:850px; padding:20px 0 285px; margin:0 -340px 470px; background:#f6f3f0; box-sizing:border-box; }
+.brand .path { margin: 10px 340px 56px 0; }
+.brand .path strong { font-size:12px; }
+.brand .brand-content { position:relative; margin: 0 auto; text-align:center; }
+.brand .brand-content h3.text::after { content:""; display:block; position: absolute; top:18px; left:50%; border-left:1px solid #666; width:1px; height:60px;}
+.brand .brand-content h3.text { position:relative; font-size:40px; font-weight:normal; padding:100px 0 0; line-height:48px;  }
+.brand .brand-content p { width:70%; font-size:22px; line-height:32px; color:#666; margin: 30px auto 60px ; word-break:break-all; }
+.brand .brand-content .picMain { position:absolute; left:50.4%; transform:translateX(-49%); }
+.brand-article .article .contents .desc p:last-child {margin:0;}
+
+.brand-article .article { display:flex; justify-content:space-between; align-items:flex-start; margin:0 auto; border-bottom:1px solid #e5e5e5; }
+.brand-article .article:last-child { border-bottom:0; }
+.brand-article .article.type-row.align-end { align-items:flex-end;  }
+.brand-article .article.type-col { flex-direction:column; }
+.brand-article .article .desc h3 { font-weight:normal; }
+.brand-article .article .desc p { color:#666; }
+.brand-article .article .desc h3 ~ p { color:#999; }
+
+.middleBanner { position:relative; height:600px; }
+.middleBanner .banner { background:fixed url("//img.echosting.cafe24.com/skinTheme/business/ko_KR/main/midBanner.jpg"); height:100%; background-position:bottom; }
+.middleBanner .banner img {width:100%;}
+.middleBanner .banner .text { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); font-size:40px; color:#fff; text-align:center; text-decoration:none; line-height:1.2 }
+.middleBanner .banner .text p { font-size:18px; line-height:1; margin: 20px 0 0;  }
+.middleBanner picture { width:auto; position:absolute; left:50%; top:0; transform:translateX(-50%); height:100%; }
+
+/********************* Mobile / Tablet *********************/
+@media all and (max-width:1024px) {
+
+    #container #contents { padding:0; }
+    .brand { width:100%; height:auto; padding: 60px 0 0; margin:0;}
+    .brand .path { margin:0; }
+    .brand .title h2.text { font-size:28px; }
+    .brand .brand-content h3.text { font-size:24px; padding: 76px 0 0; line-height:32px; }
+    .brand .brand-content h3.text::after { height:40px; }
+    .brand .brand-content p { width:80%; font-size:14px; margin: 28px auto 20px; line-height:24px; }
+    .brand .brand-content .picMain { width:100%; position:static; transform:translateX(0px); margin-top:60px; }
+	.brand-article .article { display:block; padding: 60px 0; }
+    .brand-article .article .desc { width:100%; }
+    .brand-article .article .desc h2 { font-size:16px; margin:0 0 16px; padding:0 32px 0 16px; line-height:28px; }
+    .brand-article .article .desc h3 { font-size:14px; margin:30px 0 15px; padding:0 32px 0 16px;  }
+    .brand-article .article .desc p { font-size:14px; color:#666666; line-height:22px; margin: 0 0 30px; padding:0 32px 0 16px; }
+    .brand-article .article .contents { width:100%; }
+    .brand-article .article.type-row.align-end picture { padding:0 16px; box-sizing:border-box; }
+    
+    .middleBanner { position:relative; height:282px; margin-top:60px;}
+    .middleBanner .banner .text { width:80%; font-size:24px;  }
+    .middleBanner .banner .text p { font-size: 14px; }
+    .middleBanner picture img { width:336px; }
+}
+
+/********************* PC *********************/
+@media all and (min-width:1025px) {
+    #container #contents { padding-bottom:0; }
+    
+    .picMain { width:1280px; height:650px; top:440px; }
+    .middleBanner { margin:120px -340px 0; }
+    .brand-article .article { margin-right:-40px; padding: 80px 0; }
+    .brand-article .article .desc { max-width:620px; }
+    .brand-article .article .desc h2 { font-size:28px; margin:0 0 30px; line-height:40px; }
+    .brand-article .article .desc h3 { font-size:20px; margin:40px 0 15px; }
+    .brand-article .article .desc p { font-size:18px; line-height:32px; margin: 0 0 30px; }
+    .brand-article .article .contents { width:620px; }
+
+	.brand-article .article.type-col picture { margin:30px 0 0; }
+}

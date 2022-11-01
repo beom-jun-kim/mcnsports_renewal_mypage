@@ -1,0 +1,32 @@
+.xans-myshop-wishlistitem { border-top:1px solid #000; }
+
+.xans-myshop-wishlist .shippingFee { position:relative; display:inline-block; text-align:left; }
+.xans-myshop-wishlist .shippingFee .ec-base-tooltip { display:block; margin:0 0 0 -170px; width:360px; }
+.xans-myshop-wishlist .shippingFee .ec-base-tooltip table th { width:40px; }
+.xans-myshop-wishlist .shippingFee .ec-base-tooltip table th,
+.xans-myshop-wishlist .shippingFee .ec-base-tooltip table td { padding:7px 10px 8px 10px; text-align:left; }
+
+.xans-myshop-wishlist .ec-base-prdInfo .description .prdName,
+.xans-myshop-wishlist .ec-base-prdInfo .description b {font-weight: 400;}
+.xans-myshop-wishlist .ec-base-prdInfo .buttonGroup {right: 0;}
+.xans-myshop-wishlist .ec-base-button {margin: 20px 0;}
+
+.xans-myshop-wishlistbutton .ec-base-button, 
+.xans-myshop-wishlist .optionModifyLayer .ec-base-layer {margin-top: 20px;}
+.xans-myshop-wishlist .optionModifyLayer .ec-base-layer .header {margin-bottom: 10px;}
+
+.xans-myshop-wishlist .btnClose {min-width: 96px; padding: 10px 20px; height: 32px; font-size: 12px; border: 1px solid var(--line-color); line-height: 1; vertical-align: middle; text-align: center;}
+.xans-myshop-wishlist .ec-base-prdInfo .optionModifyLayer .prdModify li select {height: 32px;}
+
+.xans-myshop-main {
+    position: static !important;
+    margin: 70px 0 50px;
+    width: 260px !important;
+}
+.myshopArea {
+    display: flex;
+    padding: 0 !important;
+}
+.myshopAreaWrap {
+    width: 100%;
+}

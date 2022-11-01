@@ -1,0 +1,58 @@
+.xans-board-movement {
+  margin: 50px 0 20px;
+}
+
+.xans-board-movement li {
+  overflow: hidden;
+  padding: 0 20px 0 0;
+  line-height: 140%;
+  color: #353535;
+}
+
+.xans-board-movement li:last-child {
+  border-bottom: 1px solid var(--line-color);
+  border-top: 1px solid var(--line-color);
+}
+
+.xans-board-movement li:first-child {
+  border-top: 1px solid var(--line-color);
+}
+
+.xans-board-movement li strong,
+.xans-board-movement li a {
+  float: left;
+  padding: 20px 0;
+  font-size: var(--small-font);
+}
+
+.xans-board-movement li strong {
+  width: 80px;
+}
+
+.xans-board-movement li strong i {
+  margin-left: 10px;
+  margin-bottom: -3px;
+}
+
+.xans-board-movement li.next strong i {
+  margin-bottom: 3px;
+}
+
+/********************* Mobile / Tablet *********************/
+@media all and (max-width: 1024px) {
+  .xans-board-movement li {
+    padding: 0 16px;
+  }
+  .xans-board-listsgroup h4 {
+    margin: 0;
+    padding: 26px 16px 20px;
+    background: #f6f6f6;
+  }
+}
+
+/********************* PC *********************/
+@media all and (min-width: 1025px) {
+  .xans-board-listsgroup h4 {
+    margin: 0 0 20px 0;
+  }
+}

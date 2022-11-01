@@ -1,0 +1,163 @@
+.fr-view img.fr-dib {
+  margin: 0 !important;
+}
+
+.readWrap {
+  max-width: 1300px;
+  margin: 150px auto 60px;
+}
+.xans-board-title p.imgArea {
+  margin: 0 0 20px;
+}
+
+.ec-base-box + #BoardDelForm .ec-base-table {
+  border-top: 0;
+}
+.xans-board-read .ec-base-table {
+  margin-top: 10px;
+}
+.xans-board-read-4 .ec-base-table {
+  margin-top: 30px;
+}
+.xans-board-read .ec-base-table.typeWrite {
+  border-top: 0;
+}
+.xans-board-read .ec-base-table .head {
+  padding: 1.2rem 2rem;
+  border-top: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-color);
+}
+
+.xans-board-read .ec-base-table .head p {
+  font-size: var(--normal-font);
+  font-weight: var(--bold-font);
+}
+
+.xans-board-read .ec-base-table .description {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: var(--small-font);
+}
+
+.xans-board-read .ec-base-table .description .name {
+  display: flex;
+  margin-right: 8px;
+  align-items: center;
+}
+
+.xans-board-read .ec-base-table .description .name a,
+.xans-board-read .ec-base-table .description span {
+  color: var(--sec-font-color);
+}
+.xans-board-read .ec-base-table .description .name a:first-child {
+  margin-right: 8px;
+}
+
+.xans-board-read .ec-base-table .description .name {
+  color: var(sec-font-color);
+}
+
+.xans-board-read .ec-base-table .etcArea {
+  display: inline-block;
+}
+.xans-board-read .ec-base-table .etcArea li a {
+  text-decoration: none;
+}
+.xans-board-read .ec-base-table .detail {
+  padding: 30px 0;
+  word-break: break-all;
+  line-height: normal;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.xans-board-read .ec-base-table .detail ol,
+.xans-board-read .ec-base-table .detail ul {
+  margin: 15px 0;
+  padding: 0 0 0 40px;
+}
+.xans-board-read .ec-base-table .detail ol li {
+  list-style: decimal;
+}
+.xans-board-read .ec-base-table .detail ul li {
+  list-style: disc;
+}
+.xans-board-read .ec-base-table img {
+  width: auto;
+}
+.xans-board-read .ec-base-table .detail .fr-view {
+  font-size: var(--normal-font);
+  color: #666;
+  line-height: 32px;
+  text-align: left;
+}
+.xans-board-read .ec-base-table .attach {
+  position: relative;
+  padding: 20px 0;
+  margin: 0 20px;
+  text-align: right;
+}
+.xans-board-read .ec-base-table .attach a {
+  padding: 0 0 0 12px;
+  color: #6d6d6d;
+}
+.xans-board-read .ec-base-table .attach a:hover {
+  text-decoration: underline;
+}
+.xans-board-read .ec-base-table .attach a:first-child {
+  padding-left: 20px;
+  background: url("//img.echosting.cafe24.com/skin/skin/board/icon-file.svg")
+    no-repeat 0 3px;
+  background-size: 14px auto;
+}
+
+.xans-board-commentlist .grade img {
+    width: auto;
+    vertical-align: sub;
+}
+
+.xans-board-product .ec-base-box.typeProduct {
+  /* margin: 0 0 40px; */
+  /* display: flex; */
+}
+.xans-board-product .information {
+  margin-left: 20px;
+}
+.xans-board-product .information b {
+  font-weight: 400;
+}
+.xans-board-product #sPrdCommonImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  text-align: right;
+}
+.xans-board-product .information .button {
+  margin: 15px 0 0;
+}
+
+.xans-board-product-4 .information p.price {
+  font-weight: var(--bold-font);
+  margin-top: 10px;
+}
+
+.xans-board-product-4 .information .button {
+  margin: 0;
+}
+
+.xans-board-listsgroup .ec-common-rwd-image[alt="답변"] {
+  max-width: 20px;
+}
+.xans-board-listsgroup .ec-common-rwd-image[alt="NEW"] {
+  max-width: 42px;
+}
+.xans-board-listsgroup .ec-common-rwd-image[alt="HIT"] {
+  max-width: 34px;
+}
+.xans-board-listsgroup .ec-common-rwd-image[alt="파일첨부"] {
+  max-width: 8px;
+}

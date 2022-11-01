@@ -1,0 +1,81 @@
+.xans-order-basketpackage .title.subTitle { display:block; padding:0; }
+.xans-order-basketpackage .title.subTitle:after { display:none; }
+.xans-order-basketpackage .title.subTitle h4 { display:block; line-height:55px; font-size:14px; font-weight:normal; border-bottom:1px solid #e5e5e5; }
+.xans-order-basketpackage .summary { padding:25px 20px; border-bottom:1px solid #e5e5e5;  border-top:1px solid #e5e5e5; background:var(--bg-color); margin:40px 0;}
+.xans-order-basketpackage .summary .title { margin:0 0 10px; }
+.xans-order-basketpackage .summary .title h5 { font-size:14px; font-weight:normal; }
+.xans-order-basketpackage .summary .contents { line-height:20px; font-size:14px; }
+.xans-order-basketpackage .summary .contents::after { content:''; display:block; clear:both; }
+.xans-order-basketpackage .summary .contents .sale { color:#ef441f;  }
+.xans-order-basketpackage .summary .contents strong { font-weight:normal; }
+.xans-order-basketpackage .summary .total { display:inline-block; float:right; }
+.xans-order-basketpackage .summary .total strong { font-size:var(--normal-font); font-weight:var(--bold-font); }
+.xans-order-basketpackage .summary .total strong::after { }
+.xans-order-basketpackage .xans-order-weight .totalWeight {text-align: right; padding: 14px; font-size: 13px; border-bottom: 1px solid #d5d5d5; }
+.xans-order-basketpackage .xans-order-weight .totalWeight span {display: inline-block;min-width: 50px;}
+
+.xans-order-basketpackage .ec-base-prdInfo .description .prdName img {width: auto;}
+.xans-order-basketpackage .ec-base-prdInfo .description .prdName a,
+.xans-order-basketpackage .ec-base-prdInfo .description .prdName b {font-weight: 400;}
+.xans-order-basketpackage .ec-base-tab.typeNav .menu {display: flex;}
+.xans-order-basketpackage .ec-base-tab.typeNav .menu li {background: none; padding: 1rem;}
+.xans-order-basketpackage .ec-base-tab.typeNav .menu li.selected {border: 1px solid #000; border-bottom: none;}
+.xans-order-basketpackage .ec-base-tab.typeNav .menu li a {border: none; background: none;}
+
+.xans-order-basketpackage .totalSummary__title { display:block; margin:0 0 20px; padding:0 0 19px; font-size:16px; border-bottom:1px solid #e5e5e5; }
+.xans-order-basketpackage .totalSummary { padding:20px; border:1px solid #000; }
+.xans-order-basketpackage .totalSummary__item { margin:0 0 20px; }
+.xans-order-basketpackage .totalSummary__item .heading { display:flex; justify-content: space-between; margin:0 0 15px; }
+.xans-order-basketpackage .totalSummary__item .item { display:flex; justify-content: space-between; margin:10px 0 0; color:#999999; }
+.xans-order-basketpackage .totalSummary__item .title { font-size:13px; font-weight:normal; }
+.xans-order-basketpackage .totalSummary__item .data { text-align:right; }
+.xans-order-basketpackage .totalSummary__item #total_product_discount_price_front::before { content:'-'; display:inline-block; padding-right:3px; } 
+.xans-order-basketpackage .totalSummary .item .title:before { content:""; display:inline-block; width:9px; height:9px; margin:0 10px 0; vertical-align:top; border-left: 1px solid #aaaaaa; border-bottom: 1px solid #aaaaaa; }
+.xans-order-basketpackage .totalSummary .total { display:flex; justify-content: space-between; align-items:center; overflow:hidden; margin:20px 0 0; padding:20px 0 0; border-top:1px solid #e5e5e5; }
+.xans-order-basketpackage .totalSummary .total .title { font-size:14px; font-weight:normal; }
+.xans-order-basketpackage .totalSummary .paymentPrice { text-align:right; }
+.xans-order-basketpackage .totalSummary .paymentPrice strong,
+.xans-order-basketpackage .totalSummary .paymentPrice span { display:inline-block; word-break:break-all; }
+.xans-order-basketpackage .totalSummary .paymentPrice strong { font-size:20px; font-weight:bold; }
+.xans-order-basketpackage .totalSummary .title p .refer,
+.xans-order-basketpackage .totalSummary .title div .refer { display:inline-block; font-size:12px; word-break:break-all; }
+.xans-order-basketpackage .totalSummary strong { font-weight:normal; font-size:14px;}
+.xans-order-basketpackage .totalSummary .ec-base-help { margin:10px 0; }
+.xans-order-basketpackage #total_benefit_price_title_area .heading { color:#ef441f; }
+.xans-order-basketpackage .ec-base-button {text-align: center; margin-bottom: 20px;}
+.xans-order-basketpackage .xans-order-totalorder .ec-base-button a { font-size:13px; }
+
+#NaverChk_Button { margin:14px 0 0; }
+.ec-base-step { display:none; }
+
+.xans-order-basketpackage td .box.shipping { line-height:1.3em; }
+.xans-order-basketpackage td .box.shipping .shippingArea { font-size:12px; line-height:1.3em; }
+.xans-order-basketpackage .shippingFee { position:relative; display:inline-block; vertical-align:middle; text-align:left; }
+.xans-order-basketpackage .shippingFee .ec-base-tooltip { display:block; margin:0 0 0 -340px; width:360px; }
+.xans-order-basketpackage .ec-base-table.total .ec-base-tooltip table th { width:40px; }
+.xans-order-basketpackage .ec-base-table.total .ec-base-tooltip table th,
+.xans-order-basketpackage .ec-base-table.total .ec-base-tooltip table td { padding:7px 10px 8px 10px; height:auto; font-size:12px; line-height:1.5; text-align:left; }
+
+.xans-myshop-main {position: static !important; margin: 70px 0 50px; width: 260px !important;}
+.myshopArea {display: flex; padding: 0 !important;}
+.myshopAreaWrap {width: 100%;}
+
+
+/* .titleArea {margin-top: 150px;} */
+
+.cart-container { display:flex; }
+.cart-product { flex:1; margin-bottom:80px; }
+.cart-total { position:relative; width:300px; margin:0 0 0 47px; }
+.cart-total .sticky { position:sticky; top:60px; }
+
+.xans-order-basketpackage .xans-order-tabinfo { margin:0 0 40px; }
+.xans-order-basketpackage .ec-base-prdInfo .description { margin:0 20% 0 0; }
+.xans-order-basketpackage .summary .contents > span::before { content:'+'; display:inline  }
+.xans-order-basketpackage .summary .contents > span.sale::before { content:'-'; }
+.xans-order-basketpackage .summary .contents > span:first-child::before,
+.xans-order-basketpackage .summary .contents > span.total::before { content:''; }
+.xans-order-basketpackage .summary .contents span.total .totalPrice { display:none; }
+.xans-order-basketpackage .summary .contents span.total .priceTail { display:inline-block;}
+.xans-order-basketpackage .summary .contents span .priceTail { display:none; }
+.xans-order-basketpriceinfoguide ul li { display:none; }
+#orderFixArea { display:none !important; }
